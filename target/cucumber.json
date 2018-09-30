@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6435576945,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Testing digital coupons",
+        "description": "",
+        "id": "automating-digital-coupons;testing-digital-coupons",
+        "after": [
+          {
+            "result": {
+              "duration": 876517494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32175555925,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on home page and clicks on login button",
+            "match": {
+              "location": "HEBCouponsStepDefs.the_user_is_on_home_page_and_clicks_on_login_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10327861056,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with email \"akodirov@harmonytx.org\" and password \"e1n9v7a9r\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akodirov@harmonytx.org\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"e1n9v7a9r\"",
+                  "offset": 66
+                }
+              ],
+              "location": "HEBCouponsStepDefs.the_user_logs_in_with_email_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35859637895,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should verify if user name is displayed on home page and clicks on coupons link",
+            "match": {
+              "location": "HEBCouponsStepDefs.the_user_should_verify_if_user_name_is_displayed_on_home_page_and_clicks_on_coupons_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6623059486,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks Select Digital Coupons button from Coupons page",
+            "match": {
+              "location": "HEBCouponsStepDefs.the_user_clicks_Select_Digital_Coupons_button_from_Coupons_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21190475773,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should click on all select coupon buttons on Digital Coupons page",
+            "match": {
+              "location": "HEBCouponsStepDefs.the_user_should_click_on_all_select_coupon_buttons_on_Digital_Coupons_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@coupons"
+          }
+        ]
+      }
+    ],
+    "name": "Automating digital coupons",
+    "description": "",
+    "id": "automating-digital-coupons",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Coupons.feature",
+    "tags": []
+  }
+]
