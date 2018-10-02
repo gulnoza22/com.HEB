@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.071156">
+<testcase classname="Automating digital coupons" name="Testing digital coupons" time="55.071156">
+<system-out><![CDATA[Given the user is on home page and clicks on login button...................passed
+When the user logs in with email "tadjichka@gmail.com" and password "hebdemo1".passed
+Then the user should verify if user name is displayed on home page and clicks on coupons link.passed
+When the user clicks Select Digital Coupons button from Coupons page........passed
+Then the user should click on all select coupon buttons on Digital Coupons page.passed
+]]></system-out>
+</testcase>
+</testsuite>

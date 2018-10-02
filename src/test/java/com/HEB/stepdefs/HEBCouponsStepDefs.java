@@ -41,7 +41,7 @@ public class HEBCouponsStepDefs {
 	@Then("the user should verify if user name is displayed on home page and clicks on coupons link")
 	public void the_user_should_verify_if_user_name_is_displayed_on_home_page_and_clicks_on_coupons_link() {
 		BrowserUtils.waitFor(1);
-	   String actual="Hi, Ali";
+	   String actual="Hi, Gulnoza";
 		BrowserUtils.waitFor(2);
 	   Assert.assertEquals(actual,homePage.userName.getText());
 		BrowserUtils.waitFor(1);

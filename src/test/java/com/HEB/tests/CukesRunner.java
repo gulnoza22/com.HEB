@@ -10,7 +10,8 @@ import cucumber.api.junit.Cucumber;
 		plugin = {
 				"pretty",
 				"html:target/default-cucumber-reports", //generates every time we run the cukes runner
-				"json:target/cucumber.json"
+				"json:target/cucumber.json",
+				"junit:target/cucumber.xml"
 		
 		},
 		

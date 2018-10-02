@@ -28,7 +28,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user logs in with email \"akodirov@harmonytx.org\" and password \"e1n9v7a9r\"",
+  "name": "the user logs in with email \"tadjichka@gmail.com\" and password \"hebdemo1\"",
   "keyword": "When "
 });
 formatter.match({

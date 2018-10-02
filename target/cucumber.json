@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6435576945,
+              "duration": 6686614256,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 876517494,
+              "duration": 890751393,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 32175555925,
+              "duration": 4486107070,
               "status": "passed"
             },
             "line": 4,
@@ -46,20 +46,20 @@
           },
           {
             "result": {
-              "duration": 10327861056,
+              "duration": 11034326993,
               "status": "passed"
             },
             "line": 5,
-            "name": "the user logs in with email \"akodirov@harmonytx.org\" and password \"e1n9v7a9r\"",
+            "name": "the user logs in with email \"tadjichka@gmail.com\" and password \"hebdemo1\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"akodirov@harmonytx.org\"",
+                  "val": "\"tadjichka@gmail.com\"",
                   "offset": 28
                 },
                 {
-                  "val": "\"e1n9v7a9r\"",
-                  "offset": 66
+                  "val": "\"hebdemo1\"",
+                  "offset": 63
                 }
               ],
               "location": "HEBCouponsStepDefs.the_user_logs_in_with_email_and_password(String,String)"
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 35859637895,
+              "duration": 5482517962,
               "status": "passed"
             },
             "line": 6,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 6623059486,
+              "duration": 6153770386,
               "status": "passed"
             },
             "line": 7,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 21190475773,
+              "duration": 20313769744,
               "status": "passed"
             },
             "line": 8,
